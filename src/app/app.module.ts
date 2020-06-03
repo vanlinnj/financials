@@ -10,6 +10,7 @@ import { RecoverComponent } from './account/recover/recover.component';
 import { CreateComponent } from './account/create/create.component';
 import { UpdateComponent } from './account/update/update.component';
 import { ResumeComponent } from './resume/resume.component';
+import { AccountRoutingModule } from './account/account-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ResumeComponent } from './resume/resume.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AccountRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
