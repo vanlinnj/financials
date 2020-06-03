@@ -9,6 +9,7 @@ import { AccountComponent } from './account/account.component';
 import { RecoverComponent } from './account/recover/recover.component';
 import { CreateComponent } from './account/create/create.component';
 import { UpdateComponent } from './account/update/update.component';
+import { ResumeComponent } from './resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UpdateComponent } from './account/update/update.component';
     AccountComponent,
     RecoverComponent,
     CreateComponent,
-    UpdateComponent
+    UpdateComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
